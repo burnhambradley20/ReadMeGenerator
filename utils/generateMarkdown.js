@@ -3,13 +3,7 @@
 // https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>
 function renderLicenseBadge(license) { if (license == 'GNU AGPLv3') {
   return `[![License](https://img.shields.io/badge/License-GNU%20AGPLv3-blue)]`
-}}
-function renderLicenseBadge(license) { if (license == 'GNU GPLv3') {
-  return `[![License](https://img.shields.io/badge/License-GNU%20GPLv3-blue)]`
-}}
-function renderLicenseBadge(license) { if (license == 'GNU LGPLv3') {
-  return `[![License](https://img.shields.io/badge/License-GNU%20LGPLv3-blue)]`
-}}
+}};
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {

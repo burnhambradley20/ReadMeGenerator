@@ -42,7 +42,7 @@ const questions = [
         message: 'enter Github ID'
     },
     {
-        type: 'input', 
+        type: 'input',
         name: 'Email',
         message: 'enter email'
     },
